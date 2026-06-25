@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DF13-4P-1_25DS_25_"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-02-10-04:49:35)
+    (mountForm default
+        (footprintRef "DF134P125DS25")
+        (spec "System")
+    )
+)

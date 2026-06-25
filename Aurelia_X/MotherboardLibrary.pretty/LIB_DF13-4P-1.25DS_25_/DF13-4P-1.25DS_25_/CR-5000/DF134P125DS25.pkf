@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "DF134P125DS25"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "DF134P125DS25")
+        (spec "default")
+    )
+)

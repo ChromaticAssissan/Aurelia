@@ -1,0 +1,126 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "DF13-4P-1.25DS_25_"
+   (description "Headers & Wire Housings 4P, 1.25mm Pitch, Single Row Pin Header, Right Angle through Hole")
+   (family "CON")
+   (package "DF134P125DS25")
+   (attribute "Datasheet Link" "https://www.hirose.com/en/product/document?clcode=CL0536-0153-2-25&productname=DF13-4P-1.25DS(25)&series=DF13&documenttype=2DDrawing&lang=en&documentid=0001495816")
+   (attribute "Geometry.Height" "3.75mm")
+   (attribute "Mouser Part Number" "798-DF134P125DS25")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF13-4P-1.25DS25?qs=Li%252BoUPsLEnumVhFK2%252BJTuQ%3D%3D")
+   (attribute "Manufacturer_Name" "Hirose")
+   (attribute "Manufacturer_Part_Number" "DF13-4P-1.25DS(25)")
+   (gate
+    (symbol "DF13-4P-1.25DS_25_")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "DF13-4P-1.25DS_25_"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DF134P125DS25"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.2 4.5)
+      (pt 1.45 4.5)
+      (pt 1.45 -0.9)
+      (pt -5.2 -0.9)
+      (pt -5.2 4.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -5.2 4.5)
+      (pt 1.45 4.5)
+      (pt 1.45 -0.9)
+      (pt -5.2 -0.9)
+      (pt -5.2 4.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6.2 5.5)
+      (pt 2.45 5.5)
+      (pt 2.45 -1.9)
+      (pt -6.2 -1.9)
+      (pt -6.2 5.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 1.9 0)
+      (arc (pt 1.900 0.000) (pt 1.900 -0.050) (pt 2.000 0.050) (start 180.0) (sweep 180.0))
+      (pt 2 0)
+      (arc (pt 2.000 0.000) (pt 1.900 -0.050) (pt 2.000 0.050) (start 180.0) (sweep .0))
+      (pt 1.9 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt -1.250 0.000) (padstack 0))
+   (leg 3 (pt -2.500 0.000) (padstack 0))
+   (leg 4 (pt -3.750 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.6)
+    (plated true)
+    (pad (layer TCOP) (round 1.000))
+    (pad (layer INNER) (round 1.000))
+    (pad (layer BCOP) (round 1.000))
+   )
+   (padstack 1
+    (hole 0.6)
+    (plated true)
+    (pad (layer TCOP) (square 1.000))
+    (pad (layer INNER) (round 1.000))
+    (pad (layer BCOP) (square 1.000))
+   )
+   (model "DF13-4P-1.25DS_25_.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

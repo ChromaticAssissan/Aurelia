@@ -1,0 +1,96 @@
+(footprint "Test_Point_KEYSTONE_5006"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.032 -2.4064 0)
+		(layer "F.SilkS")
+		(uuid "63ae30ab-d69c-413f-aada-7cf6d0094b07")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Test_Point_KEYSTONE_5006"
+		(at 1 2.5 0)
+		(layer "F.Fab")
+		(uuid "0298eedf-993f-46cc-869e-1964265cfc2b")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21c0d2bb-4db9-4964-829c-87aa94bc87df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5eab870d-703f-4c66-89ec-31717cbaf53d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.59 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2810a938-4261-4cb6-8b9c-8e1d94aa059a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.84 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a4d26990-3685-40bc-bfe6-55ef8402dd2b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.59 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "19a064d4-f397-42de-af2b-e5cb6c077341")
+	)
+	(pad "TP" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d5b03458-1877-4f1a-827d-9a00379ef898")
+	)
+	(embedded_fonts no)
+)

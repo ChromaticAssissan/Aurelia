@@ -1,0 +1,9 @@
+Manufacturer=Hirose
+PartNumber=DF13-4P-1.25DS(25)
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=1.9
+Released=2023-02-10 04:49:35
+Downloaded=2025-10-11 22:52:00
+3D=Y
